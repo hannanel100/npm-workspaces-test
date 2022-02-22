@@ -1,7 +1,4 @@
-import React from "react";
-
-const Header = ({ text = "" }) => {
-  return <h1>Shared header library {text}</h1>;
-};
-
-export { Header };
+import { Button } from "./Button/Button";
+import { Center } from "./Center/Center";
+import { FlexCol } from "./FlexCol/FlexCol";
+export { Button, Center, FlexCol };
